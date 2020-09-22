@@ -1,4 +1,4 @@
-class microctl < Formula
+class Microctl < Formula
   desc "Microconfig Server CLI"
   homepage "https://microconfig.io/"
   version "0.0.3"
