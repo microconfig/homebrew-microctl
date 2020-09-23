@@ -1,17 +1,15 @@
 class Microctl < Formula
   desc "Microconfig Server CLI"
   homepage "https://microconfig.io/"
-  version "0.0.3"
+  version "0.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/microconfig/microconfig-server/releases/download/v0.0.3/microctl-macos.zip"
-    sha256 "c8ac1208296ef8c1fa7f3cda6448f67b0200ae502a3d145300e8337e3ea5ea23"
+    url "https://github.com/microconfig/microconfig-server/releases/download/v0.1.3/microctl-macos.zip"
+    sha256 "01be484964a3657a1cf7c34b3f191c3f2d9d60c73f6325c7b4f7652b68d00aaf"
   elsif OS.linux?
-    if Hardware::CPU.intel?
-      url "https://github.com/microconfig/microconfig-server/releases/download/v0.0.3/microctl-linux.zip"
-      sha256 "c7441ae971654f144f7e83535e00ccfa5b9ff70527ba6f94e2c78998954d3278"
-    end
+    url "https://github.com/microconfig/microconfig-server/releases/download/v0.1.3/microctl-linux.zip"
+    sha256 "8fdba68a380ef868cf29ee3ef98a1932f1f1b56abee084ccfd0bd2a300834c2f"
   end
 
   def install
