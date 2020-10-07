@@ -6,10 +6,10 @@ class Microctl < Formula
 
   if OS.mac?
     url "https://github.com/microconfig/microconfig-server/releases/download/v0.1.5/microctl-macos.zip"
-    sha256 "ca72600b117748112ee03c4feb088c995b57fe280ccf748632b5d8dd4ceb9377"
+    sha256 "93edd2ffaec0698518fc89a86cf789dda91aa453d2aef8626f00cc56e00bf4b7"
   elsif OS.linux?
     url "https://github.com/microconfig/microconfig-server/releases/download/v0.1.5/microctl-linux.zip"
-    sha256 "f2850396c0d96d90711a03bdea627ca2e836cf12dbc7f3727a6df6d5ba52a159"
+    sha256 "bb63c85563af94617bf8c9835895f226ab11257b364e0eb6905e02fb4dcd95fa"
   end
 
   def install
